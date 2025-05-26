@@ -3,5 +3,38 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
+    min-width: 100vh;
     flex-direction: column;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+}
+
+header p {
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 300px;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke; 
 }

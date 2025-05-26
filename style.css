@@ -3,7 +3,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
-    min-width: 100vh;
     flex-direction: column;
 }
 
@@ -13,28 +12,67 @@ header {
     padding: 10px;
     display: flex;
     flex: 1;
+    flex-direction: space-between;
+    margin: 0 60px;
 }
 
-header p {
-    font-size: 24px;
-    font-weight: 700;
-    max-width: 300px;
-    flex-shrink: 0;
+.logo {
+    width: 300px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 }
 
 li {
+    list-style: none;
     margin-right: 20px;
 }
 
 a {
     text-decoration: none;
     color: whitesmoke; 
+}
+
+.signup {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.signup-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+img {
+    width: 400px;
+}
+
+.classes-container {
+    display: flex;
+    flex: auto;
+    margin: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.class.card {
+    width: 200px;
+    height: 200px;
+    background-color: #F9FAF8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

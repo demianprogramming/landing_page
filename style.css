@@ -32,9 +32,9 @@ ul {
     gap: 20px;
 }
 
-/* li {
+li {
     list-style: none;
-} */
+}
 
 a {
     text-decoration: none;
@@ -42,25 +42,32 @@ a {
 }
 
 
-/* .signup {
+.signup {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
     display: flex;
-    flex: 1;
-    justify-content: center;
+    flex-grow: 1;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 60px;
+    gap: 40px;
 }
 
-.signup-image {
+.signup-botton {
+    min-width: 300px;
+}
+
+.signup-image img {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    max-width: 500px;
+    min-width: 200px;
+    flex-wrap: wrap;
 }
 
-img {
-    width: 400px;
-}
 
+/*
 .classes-container {
     display: flex;
     flex: auto;

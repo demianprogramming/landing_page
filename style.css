@@ -75,7 +75,6 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 30px;
 }
 
 .class-card {
@@ -84,4 +83,13 @@ a {
     background-color: #F9FAF8;
     border: 6px solid blue;
     border-radius: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
 }
